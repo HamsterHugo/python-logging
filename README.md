@@ -54,7 +54,7 @@ Finally, you have to install the requirements. You can do so by executing the fo
 pip install -r requirements.txt
 ```
 
-ℹ️ You have to install the packages only once.
+ℹ️ **Notice:** You have to install the packages only once.
 
 Now, you are to start. For that, select an example and change to the corresponding folder, for instance:
 
