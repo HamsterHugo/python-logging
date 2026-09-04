@@ -21,3 +21,51 @@ xx-logger-example/
 The logger configurations are set in the `main.py` file. In addition there is a function defined named `log_messages` to demonstrate log messages for all logging levels. The other two files have functions `first_logs` and `second_logs` which also create log messages for all logging levels but both functions are called from `main.py`.
 
 Choose an example, switch to the corresponding folder and then run the file `main.py` to see the output of the logs.
+
+## 🚀 Getting started
+
+Clone the repository by using the following command:
+
+```bash
+git clone https://github.com/HamsterHugo/python-logging.git
+```
+
+Change directory to the project folder:
+
+```bash
+cd python-logging
+```
+
+I recommend to create a virtual environment. If you are using VS Code you can do so by running the following command:
+
+```bash
+python -m venv .venv
+```
+
+You can activate the virtual environment with the following command:
+
+```bash
+.venv\Scripts\activate
+```
+
+Finally, you have to install the requirements. You can do so by executing the following code:
+
+```bash
+pip install -r requirements.txt
+```
+
+ℹ️ You have to install the packages only once.
+
+Now, you are to start. For that, select an example and change to the corresponding folder, for instance:
+
+```bash
+cd 01-basic-logger
+```
+
+Then, just run the command:
+
+```bash
+python main.py
+```
+
+You can see the output of the logger in the terminal and in the corresponding log file which is created after running `main.py`.
