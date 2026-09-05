@@ -77,3 +77,9 @@ You can see the output of the logger in the terminal and in the corresponding lo
 This configuration demonstrates the default setting in the logging module. The logger has a Stream- and a Filehandler.
 
 ![Terminal](images/01-terminal.png "Output of the terminal.") ![Logs](images/01-logs.png "Logs in the log file.")
+
+### 02 Custom Logger
+
+A custom format for the logs message and the datetime is used. Again, the logger has a Stream- and a Filehandler.
+
+![Terminal](images/02-terminal.png "Output of the terminal.") ![Logs](images/02-logs.png "Logs in the log file.")
