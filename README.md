@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 ℹ️ **Notice:** You have to install the packages only once.
 
-Now, you are to start. For that, select an example and change to the corresponding folder, for instance:
+Now, you are able to start. For that, select an example and change to the corresponding folder, for instance:
 
 ```bash
 cd 01-basic-logger
