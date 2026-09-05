@@ -74,6 +74,6 @@ You can see the output of the logger in the terminal and in the corresponding lo
 
 ### 01 Basic Configurations
 
-This configuration demonstrates the default setting in the logging module.
+This configuration demonstrates the default setting in the logging module. The logger has a Stream- and a Filehandler.
 
 ![Terminal](images/01-terminal.png "Output of the terminal.") ![Logs](images/01-logs.png "Logs in the log file.")
