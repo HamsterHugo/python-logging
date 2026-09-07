@@ -83,3 +83,13 @@ This configuration demonstrates the default setting in the logging module. The l
 A custom format for the logs message and the datetime is used. Again, the logger has a Stream- and a Filehandler.
 
 ![Terminal](images/02-terminal.png "Output of the terminal.") ![Logs](images/02-logs.png "Logs in the log file.")
+
+### 03 Basic Filter
+
+The Stream- and Filehandler are equipped with a filter.
+
+The filter for the Streamhandler is initialized with the name `secondChild`. Hence, it filters all events which are not coming from the logger with name `secondChild`. Therefore only the log messages from the file `secondChild.py` are printed out in the terminal.
+
+The filter for the Filehandler is initialized with the name `firstChild`, i.e. it only accepts the events from the file `firstChild.py`.
+
+![Terminal](images/03-terminal.png "Output of the terminal.") ![Logs](images/03-logs.png "Logs in the log file.")
