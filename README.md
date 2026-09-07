@@ -93,3 +93,13 @@ The filter for the Streamhandler is initialized with the name `secondChild`. Hen
 The filter for the Filehandler is initialized with the name `firstChild`, i.e. it only accepts the events from the file `firstChild.py`.
 
 ![Terminal](images/03-terminal.png "Output of the terminal.") ![Logs](images/03-logs.png "Logs in the log file.")
+
+### 04 Word Filter
+
+A custom Filter Class named `WordFilter` is defined which inherits from the Filter Class from the logging module. The `WordFilter` is initialized with a string. If the given string is contained in the event's log message, it is blocked by the filter. Otherwise the event is let through.
+
+If the `WordFilter` is in addition initialized with the parameter `reverse=True` the opposite happens. Only the events containing the spezified string are passed through.
+
+In the example two `WordFilter` are initialized both with the string `WORD` but only for the second filter the parameter `reverse` is set to `True`. The first `WordFilter` is attached to the StreamHandler, and the second one is attached to the FileHandler. Hence, only the events containing the string `WORD` are displayed in the terminal. For the FileHandler we have the other way round.
+
+![Terminal](images/04-terminal.png "Output of the terminal.") ![Logs](images/04-logs.png "Logs in the log file.")
