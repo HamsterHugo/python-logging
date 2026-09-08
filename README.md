@@ -109,3 +109,9 @@ In the example two `WordFilter` are initialized both with the string `WORD` but 
 A formatter is used to format the log messages. The formatter is only attached to the Filehandler. Hence, the output in the terminal and the messages in the log file look differently.
 
 ![Terminal](images/05-terminal.png "Output of the terminal.") ![Logs](images/05-logs.png "Logs in the log file.")
+
+### 06 Custom Formatter
+
+In this example a custom formatter is defined. It is a class named `StatusFormatter` which inherits from the formatter class of the logging module. If a log message is created and the parameter `extra` is given a dictionary that contains the key `status`, then the formatter replaces the label of the logger level with the value of `status`. In the shown example below, the `status` is set to `success`. Notice that the info logs have the label `success`.
+
+![Terminal](images/06-terminal.png "Output of the terminal.") ![Logs](images/06-logs.png "Logs in the log file.")
