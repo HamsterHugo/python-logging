@@ -134,7 +134,7 @@ In this example a `console` object from the package `rich` is used for the outpu
 
 ![Terminal](images/09-terminal.png "Output of the terminal.") ![Logs](images/09-logs.png "Logs in the log file.") ![Logs](images/09-html.png "Logs in the html file.")
 
-### Icon Richhanlder
+### 10 Icon Richhanlder
 
 In the example the Richhandler is customized. The labels of the log levels are replaces with icons. The Filehandler stays the same as before.
 
