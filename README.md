@@ -115,3 +115,9 @@ A formatter is used to format the log messages. The formatter is only attached t
 In this example a custom formatter is defined. It is a class named `StatusFormatter` which inherits from the formatter class of the logging module. If a log message is created and the parameter `extra` is given a dictionary that contains the key `status`, then the formatter replaces the label of the logger level with the value of `status`. In the shown example below, the `status` is set to `success`. Notice that the info logs have the label `success`.
 
 ![Terminal](images/06-terminal.png "Output of the terminal.") ![Logs](images/06-logs.png "Logs in the log file.")
+
+### 07 Custom Levels
+
+The default logger has five log levels, namely `debug`, `info`, `warning`, `error` and `critical`. In this example we define three additional log levels: `success`, `complete` and `fail`.
+
+![Terminal](images/07-terminal.png "Output of the terminal.") ![Logs](images/07-logs.png "Logs in the log file.")
