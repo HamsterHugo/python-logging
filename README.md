@@ -139,3 +139,9 @@ In this example a `console` object from the package `rich` is used for the outpu
 In the example the Richhandler is customized. The labels of the log levels are replaces with icons. The Filehandler stays the same as before.
 
 ![Terminal](images/10-terminal.png "Output of the terminal.") ![Logs](images/10-logs.png "Logs in the log file.")
+
+### 11 Status Richhandler
+
+In this example a custom Richhandler is defined, namely the `StatusAwareRichhandler` which inherits from the class `RichHanlder` from the package `rich`. If an info log message is created and the paramater `extra` is set to a dictionary containing the key `status`, then the info messages has four additional predefined labels, namely `success`, `complete`, `fail` and `report`. The first three of them have an icon at the end of the log message. Again, the logs are in addition saved to an html file to keep the coloring.
+
+![Terminal](images/11-terminal.png "Output of the terminal.") ![Logs](images/11-logs.png "Logs in the log file.") ![Logs](images/11-html.png "Logs in the html file.")
