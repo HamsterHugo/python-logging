@@ -133,3 +133,9 @@ In this example the Streamhandler is replaced with the Richhandler from the pack
 In this example a `console` object from the package `rich` is used for the output in the terminal. In addition custom theme is used to change the colors of the output. Furthermore, the output is saved to an html file to keep the colorizing.
 
 ![Terminal](images/09-terminal.png "Output of the terminal.") ![Logs](images/09-logs.png "Logs in the log file.") ![Logs](images/09-html.png "Logs in the html file.")
+
+### Icon Richhanlder
+
+In the example the Richhandler is customized. The labels of the log levels are replaces with icons. The Filehandler stays the same as before.
+
+![Terminal](images/10-terminal.png "Output of the terminal.") ![Logs](images/10-logs.png "Logs in the log file.")
