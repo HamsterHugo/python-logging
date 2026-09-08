@@ -121,3 +121,9 @@ In this example a custom formatter is defined. It is a class named `StatusFormat
 The default logger has five log levels, namely `debug`, `info`, `warning`, `error` and `critical`. In this example we define three additional log levels: `success`, `complete` and `fail`.
 
 ![Terminal](images/07-terminal.png "Output of the terminal.") ![Logs](images/07-logs.png "Logs in the log file.")
+
+### 08 Basic Richhandler
+
+In this example the Streamhandler is replaced with the Richhandler from the package `rich`.
+
+![Terminal](images/08-terminal.png "Output of the terminal.") ![Logs](images/08-logs.png "Logs in the log file.")
