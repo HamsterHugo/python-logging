@@ -103,3 +103,9 @@ If the `WordFilter` is in addition initialized with the parameter `reverse=True`
 In the example two `WordFilter` are initialized both with the string `WORD` but only for the second filter the parameter `reverse` is set to `True`. The first `WordFilter` is attached to the StreamHandler, and the second one is attached to the FileHandler. Hence, only the events containing the string `WORD` are displayed in the terminal. For the FileHandler we have the other way round.
 
 ![Terminal](images/04-terminal.png "Output of the terminal.") ![Logs](images/04-logs.png "Logs in the log file.")
+
+### 05 Basic Formatter
+
+A formatter is used to format the log messages. The formatter is only attached to the Filehandler. Hence, the output in the terminal and the messages in the log file look differently.
+
+![Terminal](images/05-terminal.png "Output of the terminal.") ![Logs](images/05-logs.png "Logs in the log file.")
