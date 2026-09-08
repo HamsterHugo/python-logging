@@ -127,3 +127,9 @@ The default logger has five log levels, namely `debug`, `info`, `warning`, `erro
 In this example the Streamhandler is replaced with the Richhandler from the package `rich`.
 
 ![Terminal](images/08-terminal.png "Output of the terminal.") ![Logs](images/08-logs.png "Logs in the log file.")
+
+### 09 Custom Richhandler
+
+In this example a `console` object from the package `rich` is used for the output in the terminal. In addition custom theme is used to change the colors of the output. Furthermore, the output is saved to an html file to keep the colorizing.
+
+![Terminal](images/09-terminal.png "Output of the terminal.") ![Logs](images/09-logs.png "Logs in the log file.") ![Logs](images/09-html.png "Logs in the html file.")
